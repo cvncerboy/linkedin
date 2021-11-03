@@ -1,0 +1,492 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F3F2EF;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+}
+
+header.heading {
+  width: 100%;
+  height: 52px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+}
+header.heading div.headinglist {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 80px;
+  font-size: 0.8em;
+  text-align: center;
+}
+header.heading div.headinglist img {
+  width: 34px;
+  height: 34px;
+}
+header.heading div.headinglist img.imglogo {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #777;
+  border-radius: 100px;
+}
+header.heading div.headinglist span.flaticon-search {
+  position: relative;
+  left: 30px;
+}
+header.heading div.headinglist a.search {
+  text-decoration: none;
+  color: black;
+  width: 400px;
+  height: 34px;
+}
+header.heading div.headinglist a.search input {
+  width: 280px;
+  height: 34px;
+  border: 0px solid #777;
+  border-radius: 5px;
+  background-color: #F3F2EF;
+  padding-left: 40px;
+}
+header.heading div.headinglist a.linkedin {
+  display: inline-block;
+}
+header.heading div.headinglist a.linkedin h1 {
+  width: 34px;
+  height: 34px;
+}
+header.heading div.headinglist a {
+  text-decoration: none;
+  color: #555;
+}
+header.heading div.headinglist div.hover a:hover {
+  color: black;
+}
+header.heading div.headinglist div.coba a {
+  color: brown;
+}
+header.heading div.headinglist div.coba a:hover {
+  text-decoration: underline;
+}
+
+section.section {
+  height: 500vh;
+  margin: 100px 75px;
+  display: flex;
+}
+section.section section.wholesectionaside aside.asidesection {
+  width: 250px;
+  height: 380px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #777;
+  margin: 10px 30px;
+  padding-top: 15px;
+}
+section.section section.wholesectionaside aside.asidesection img.square {
+  width: 70px;
+  height: 70px;
+  border: 2px;
+  border-radius: 100px;
+  display: block;
+  margin: 0 auto;
+}
+section.section section.wholesectionaside aside.asidesection a {
+  text-decoration: none;
+  color: black;
+}
+section.section section.wholesectionaside aside.asidesection a h1 {
+  margin: 0 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 1em;
+}
+section.section section.wholesectionaside aside.asidesection a:hover {
+  text-decoration: underline;
+}
+section.section section.wholesectionaside aside.asidesection h6 {
+  margin: 0 0;
+  padding-bottom: 5px;
+  text-align: center;
+  color: #777;
+}
+section.section section.wholesectionaside aside.asidesection p {
+  margin: 0 0;
+  padding: 10px 10px;
+  font-size: 0.8em;
+}
+section.section section.wholesectionaside aside.asidesection span {
+  float: right;
+  color: blue;
+  font-weight: 700;
+}
+section.section section.wholesectionaside aside.asidesection div.p {
+  color: #777;
+}
+section.section section.wholesectionaside aside.asidesection a {
+  width: 20px;
+  height: 20px;
+  background-color: salmon;
+}
+section.section section.wholesectionaside aside.secondasidesection {
+  width: 250px;
+  height: 160px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #777;
+  margin: 10px 30px;
+  position: sticky;
+  top: 67px;
+}
+section.section section.wholesectionaside aside.secondasidesection div.secondasidesection {
+  margin: 0 10px;
+}
+section.section section.wholesectionaside aside.secondasidesection div.secondasidesection a {
+  font-size: 0.8em;
+  margin: 0 0;
+  padding: 0 0;
+  color: blue;
+  text-decoration: none;
+}
+section.section section.wholesectionaside aside.secondasidesection div.secondasidesection a span {
+  float: right;
+  font-size: 2em;
+}
+section.section section.wholesectionaside aside.secondasidesection div.secondasidesection a:hover {
+  text-decoration: underline;
+}
+section.section section.wholesectionaside aside.secondasidesection div.secondasidesectionone a {
+  font-size: 0.8em;
+  margin: 0 0;
+  padding: 0 0;
+  color: #777;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1em;
+}
+section.section main.wholemainsection main.mainsection {
+  width: 550px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #777;
+  margin-top: 10px;
+}
+section.section main.wholemainsection main.mainsection div.mainsection {
+  display: flex;
+  justify-content: center;
+}
+section.section main.wholemainsection main.mainsection div.mainsection img.imgpost {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 2px;
+  border-radius: 100px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+section.section main.wholemainsection main.mainsection div.mainsection a {
+  text-decoration: none;
+  text-align: left;
+  line-height: 50px;
+  color: #333;
+}
+section.section main.wholemainsection main.mainsection div.mainsection a p.mainsectionone {
+  width: 450px;
+  height: 50px;
+  padding-left: 20px;
+  border: 1px solid #777;
+  border-radius: 50px;
+  color: #777;
+}
+section.section main.wholemainsection main.mainsection div.mainsection p:hover {
+  background-color: #F3F2EF;
+}
+section.section main.wholemainsection main.mainsection div.mainsectionone ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+section.section main.wholemainsection main.mainsection div.mainsectionone ul li {
+  list-style: none;
+}
+section.section main.wholemainsection main.mainsection div.mainsectionone ul li a {
+  text-decoration: none;
+  color: black;
+}
+section.section main.wholemainsection main.mainsection div.mainsectionone ul li.flaticon-photo {
+  width: 24px;
+  height: 24px;
+}
+section.section main.wholemainsection main.mainsection div.mainsectionone ul img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+section.section main.wholemainsection main.secondmainsection {
+  width: 550px;
+  height: 570px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #777;
+  margin-top: 40px;
+}
+section.section main.wholemainsection main.secondmainsection div.secondmainsection {
+  display: flex;
+}
+section.section main.wholemainsection main.secondmainsection div.secondmainsection div.secondmainsection {
+  padding: 10px 10px;
+}
+section.section main.wholemainsection main.secondmainsection div.secondmainsection div.secondmainsection img {
+  width: 50px;
+  height: 50px;
+  border: 2px;
+  border-radius: 100px;
+  margin: 0 0;
+}
+section.section main.wholemainsection main.secondmainsection div.secondmainsection div.secondmainsectiondesc {
+  padding: 10px 10px;
+}
+section.section main.wholemainsection main.secondmainsection div.secondmainsection div.secondmainsectiondesc h5 {
+  margin: 0 0;
+}
+section.section main.wholemainsection main.secondmainsection div.secondmainsection div.secondmainsectiondesc h6 {
+  margin: 0 0;
+}
+section.section main.wholemainsection main.secondmainsection p.desc {
+  margin: 0 10px;
+}
+section.section main.wholemainsection main.secondmainsection p.mainsection img {
+  width: 550px;
+  height: 300px;
+}
+section.section main.wholemainsection main.secondmainsection h6 {
+  margin: 0 0;
+}
+section.section main.wholemainsection main.secondmainsection h6.comment {
+  margin: 0 10px;
+}
+section.section main.wholemainsection main.secondmainsection ul.review {
+  margin: 0 10px;
+}
+section.section main.wholemainsection main.secondmainsection ul {
+  display: flex;
+  padding: 0;
+}
+section.section main.wholemainsection main.secondmainsection ul li {
+  margin-right: 40px;
+  list-style: none;
+}
+section.section main.wholemainsection main.thirdmainsection {
+  width: 550px;
+  height: 880px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #777;
+  margin-top: 10px;
+}
+section.section main.wholemainsection main.thirdmainsection div.thirdmainsection {
+  display: flex;
+}
+section.section main.wholemainsection main.thirdmainsection div.thirdmainsection div.thirdmainsection {
+  padding: 10px 10px;
+}
+section.section main.wholemainsection main.thirdmainsection div.thirdmainsection div.thirdmainsection img {
+  width: 50px;
+  height: 50px;
+  border: 2px;
+  border-radius: 100px;
+  margin: 0 0;
+}
+section.section main.wholemainsection main.thirdmainsection div.thirdmainsection div.thirdmainsectiondesc {
+  padding: 10px 10px;
+}
+section.section main.wholemainsection main.thirdmainsection div.thirdmainsection div.thirdmainsectiondesc h5 {
+  margin: 0 0;
+}
+section.section main.wholemainsection main.thirdmainsection div.thirdmainsection div.thirdmainsectiondesc h6 {
+  margin: 0 0;
+}
+section.section main.wholemainsection main.thirdmainsection p.desc {
+  margin: 0 10px;
+}
+section.section main.wholemainsection main.thirdmainsection p.mainsection img {
+  width: 550px;
+  height: 550px;
+}
+section.section main.wholemainsection main.thirdmainsection h6 {
+  margin: 0 0;
+}
+section.section main.wholemainsection main.thirdmainsection h6.comment {
+  margin: 0 10px;
+}
+section.section main.wholemainsection main.thirdmainsection ul.review {
+  margin: 0 10px;
+}
+section.section main.wholemainsection main.thirdmainsection ul {
+  display: flex;
+  padding: 0;
+}
+section.section main.wholemainsection main.thirdmainsection ul li {
+  margin-right: 40px;
+  list-style: none;
+}
+section.section main.wholemainsection main.fourthmainsection {
+  width: 550px;
+  height: 850px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #777;
+  margin-top: 10px;
+}
+section.section main.wholemainsection main.fourthmainsection div.fourthmainsection {
+  display: flex;
+}
+section.section main.wholemainsection main.fourthmainsection div.fourthmainsection div.fourthmainsection {
+  padding: 10px 10px;
+}
+section.section main.wholemainsection main.fourthmainsection div.fourthmainsection div.fourthmainsection img {
+  width: 50px;
+  height: 50px;
+  border: 2px;
+  border-radius: 100px;
+  margin: 0 0;
+}
+section.section main.wholemainsection main.fourthmainsection div.fourthmainsection div.fourthmainsectiondesc {
+  padding: 10px 10px;
+}
+section.section main.wholemainsection main.fourthmainsection div.fourthmainsection div.fourthmainsectiondesc h5 {
+  margin: 0 0;
+}
+section.section main.wholemainsection main.fourthmainsection div.fourthmainsection div.fourthmainsectiondesc h6 {
+  margin: 0 0;
+}
+section.section main.wholemainsection main.fourthmainsection p.desc {
+  margin: 0 10px;
+}
+section.section main.wholemainsection main.fourthmainsection p.mainsection img {
+  width: 550px;
+  height: 550px;
+}
+section.section main.wholemainsection main.fourthmainsection h6 {
+  margin: 0 0;
+}
+section.section main.wholemainsection main.fourthmainsection h6.comment {
+  margin: 0 10px;
+}
+section.section main.wholemainsection main.fourthmainsection ul.review {
+  margin: 0 10px;
+}
+section.section main.wholemainsection main.fourthmainsection ul {
+  display: flex;
+  padding: 0;
+}
+section.section main.wholemainsection main.fourthmainsection ul li {
+  margin-right: 40px;
+  list-style: none;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond {
+  margin: 10px 0;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.asidesectionsecond {
+  width: 260px;
+  height: 410px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #777;
+  margin: 0 30px;
+  padding: 10px 20px;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.asidesectionsecond h4 {
+  margin: 0 0;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.aside {
+  display: flex;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.aside div.aside img {
+  width: 50px;
+  height: 50px;
+  border: 2px;
+  border-radius: 100px;
+  margin-right: 5px;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.aside div.mainsectiondesc a {
+  text-decoration: none;
+  color: black;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.aside div.mainsectiondesc a p.mainsectiondesc {
+  width: 82px;
+  height: 32px;
+  border: 1px solid #999;
+  border-radius: 50px;
+  color: #999;
+  text-align: center;
+  line-height: 32px;
+  margin: 10px 0;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.aside div.mainsectiondesc a p.mainsectiondesc:hover {
+  background-color: #F3F2EF;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.aside div.mainsectiondesc h5 {
+  margin: 10px auto;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.aside div.mainsectiondesc h6 {
+  margin: 10px auto;
+  color: #999;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.asidesectionsecondary {
+  width: 260px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #777;
+  margin: 10px 30px;
+  padding: 10px 20px;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.asidesectionsecondary div.asidesectionsecondarydesc h4 {
+  margin: 0 0;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.asidesectionsecondary div.asidesectionsecondarydesc h5 {
+  margin: 0 0;
+}
+section.section section.asideandfooter aside.wholeasidesectionsecond aside.asidesectionsecondary div.asidesectionsecondarydesc h6 {
+  color: #777;
+  margin: 0 0;
+  padding-left: 20px;
+}
+section.section section.asideandfooter footer.wholefootersection {
+  position: sticky;
+  top: 67px;
+}
+section.section section.asideandfooter footer.wholefootersection footer.footersection {
+  width: 300px;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid #777;
+  margin: 10px 30px;
+}
+section.section section.asideandfooter footer.wholefootersection footer.footersection img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+section.section section.asideandfooter footer.wholefootersection footer.footersectionsecond {
+  width: 300px;
+  height: 250px;
+  margin: 10px 30px;
+  text-align: center;
+}
+section.section section.asideandfooter footer.wholefootersection footer.footersectionsecond a {
+  text-decoration: none;
+  font-size: 0.8em;
+  margin: 0 15px;
+  color: #777;
+}
+section.section section.asideandfooter footer.wholefootersection footer.footersectionsecond a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+section.section section.asideandfooter footer.wholefootersection footer.footersectionsecond p {
+  font-size: 0.8em;
+}
